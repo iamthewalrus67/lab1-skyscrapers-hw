@@ -1,3 +1,8 @@
+'''
+https://github.com/iamthewalrus67/lab1-skyscrapers-hw
+'''
+
+
 def read_input(path: str) -> list:
     """
     Read game board file from path.
