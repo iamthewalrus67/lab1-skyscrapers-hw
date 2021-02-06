@@ -87,7 +87,7 @@ def check_uniqueness_in_rows(board: list):
  '*553215', '*35214*', '*41532*', '*2*1***'])
     False
     """
-    for row in board:
+    for row in board[1:-1]:
         if ('*' not in row[1:-1]) and (len(set(row[1:-1])) < len(row[1:-1])):
             return False
 
